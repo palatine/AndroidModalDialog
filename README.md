@@ -1,6 +1,7 @@
 # AndroidModalDialog
+## [中文](https://github.com/palatine/AndroidModalDialog/blob/master/README_CN.md)
 This is an Android modal dialog, and very easy for using and extending! <br>
-When AndroidModalDialog start to show, **UI thread will be blocked util user do the chice(However, in this situation ANR WON'T happen**)!<br>
+When AndroidModalDialog start to show, **Current UI thread will be blocked util user calls endModal to pass their chice(However, in this situation ANR WON'T happen**)!<br>
 ![](https://github.com/palatine/AndroidModalDialog/blob/master/imgs/androidmodaldialog.gif)
 <br>
 # USAGE
