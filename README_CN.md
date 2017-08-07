@@ -4,6 +4,21 @@
 ![](https://github.com/palatine/AndroidModalDialog/blob/master/imgs/androidmodaldialog.gif)
 <br>
 # USAGE
+Step 1. 添加JitPack repository到你的项目build.gradle
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. 添加依赖
+```
+dependencies {
+	        compile 'com.github.palatine:AndroidModalDialog:0.2'
+	}
+```
 你可以直接使用 CommonSelectorDialog 来创建一个通用的对话框比如:
 <br>
 ```Java
