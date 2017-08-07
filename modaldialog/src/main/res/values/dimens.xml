@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_margin">5dp</dimen>
+    <dimen name="half_default_margin">2.5dp</dimen>
+    <dimen name="double_default_margin">10dp</dimen>
+    <dimen name="triple_default_margin">15dp</dimen>
+    <dimen name="four_times_default_margin">20dp</dimen>
+    <dimen name="five_times_default_margin">25dp</dimen>
+    <dimen name="six_times_default_margin">30dp</dimen>
+    <dimen name="minus_margin_on_top">-5dp</dimen>
+    <dimen name="action_bar_height">53dp</dimen>
+    <dimen name="bottom_nav_bar_bar_height">56dp</dimen>
+
+
+    <dimen name="filter_page_icon_width">26dip</dimen>
+    <dimen name="button_icon_size">32dip</dimen>
+    <dimen name="button_height">46dip</dimen>
+    <dimen name="small_button_height">36dip</dimen>
+    <dimen name="notice_pops_windows_min_height">92dip</dimen>
+    <dimen name="video_player_playlist_drawer_width">195dp</dimen>
+    <dimen name="course_cell_v3_timeline_height">30dp</dimen>
+    <dimen name="course_list_page_button_height">55dp</dimen>
+    <dimen name="video_word_card_button_width">75dp</dimen>
+    <dimen name="video_word_card_button_height">30dp</dimen>
+    <dimen name="long_video_word_card_button_width">105dp</dimen>
+</resources>
+

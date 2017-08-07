@@ -1,0 +1,6 @@
+<resources>
+    <style name="bottom_up_animation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/set_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/set_push_bottom_out</item>
+    </style>
+</resources>

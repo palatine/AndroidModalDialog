@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/semi_dark"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:background="@drawable/white_round_rect_10_radius"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/triple_default_margin"
+            android:gravity="center"
+            android:paddingLeft="@dimen/double_default_margin"
+            android:paddingRight="@dimen/double_default_margin"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/descTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleTextView"
+            android:layout_marginTop="@dimen/triple_default_margin"
+            android:gravity="center"
+            android:paddingLeft="@dimen/double_default_margin"
+            android:paddingRight="@dimen/double_default_margin"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            android:visibility="visible"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_below="@id/descTextView"
+            android:layout_marginTop="@dimen/triple_default_margin"
+            android:background="@color/gray_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:divider="@drawable/divider_0dot1_dp_gray_vertical"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:lines="1"
+                android:text="@string/string_confirm"
+                android:textColor="@color/blue_color"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:lines="1"
+                android:text="@string/string_cancel"
+                android:textColor="@color/blue_color"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/neutralButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:lines="1"
+                android:text="@string/string_ignore"
+                android:textColor="@color/blue_color"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

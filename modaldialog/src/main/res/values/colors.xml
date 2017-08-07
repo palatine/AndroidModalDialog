@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="orage_color">#F48617</color>
+    <color name="red_color">#F75A53</color>
+    <color name="green_color">#FF29C5E7</color>
+    <color name="text_color">#FF666666</color>
+    <color name="text_color_dark">#FF333333</color>
+    <color name="text_color_light">#FF999999</color>
+    <color name="order_text_color">#AAAAAA</color>
+    <color name="text_hint_color">#90AAAAAA</color>
+    <color name="bg_color">#E0E7EC</color>
+    <color name="menu_item_bg_color">#D5D5D5</color>
+    <color name="action_bar_bg_color">#F2F2F2</color>
+    <color name="list_view_sep_color">#D5D5D5</color>
+    <color name="menu_sep_color">#919191</color>
+    <color name="blue_color">#2592E3</color>
+    <color name="gray_color">#C6C6C6</color>
+    <color name="light_gray_color">#30AAAAAA</color>
+    <color name="light_blue">#2592E3</color>
+    <color name="black">#000000</color>
+    <color name="highlight_text_color">#FFFFFF</color>
+    <color name="edit_text_content_bg">#F6F6F6</color>
+    <color name="lesson_view_major_grid_line_color">#90707070</color>
+    <color name="semi_dark">#8c000000</color>
+    <color name="twenty_dark">#14000000</color>
+    <color name="semi_white">#28FFFFFF</color>
+    <color name="lesson_table_seller_off_icon_bg">#b0dcff</color>
+    <color name="lesson_table_seller_off_area_bg">#140092ff</color>
+    <color name="lesson_table_seller_on_icon_bg">#ffa0eeff</color>
+    <color name="lesson_table_seller_on_area_bg">#2029c5e7</color>
+    <color name="lesson_table_seller_occupied_icon_bg">#d4d4d4</color>
+    <color name="lesson_table_seller_occupied_area_bg">#28707070</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="yellow_color">#FFFFA63C</color>
+    <color name="light_blue_color">#29C5E7</color>
+    <color name="video_player_seek_bar_bg_color">#30AAAAAA</color>
+    <color name="video_player_seek_secondary_progress_color">#90AAAAAA</color>
+
+    <color name="free_range_site_area_fill_color">#232592E3</color>
+    <color name="free_range_site_area_selected_fill_color">#662592E3</color>
+    <color name="fee_range_site_area_fill_color">#23ff911a</color>
+    <color name="fee_range_site_area_selected_fill_color">#66ff911a</color>
+    <color name="no_content_text_color">#FFB9BDC1</color>
+
+</resources>

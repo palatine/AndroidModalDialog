@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体大小 -->
+    <dimen name="tiny_text_size">10sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="big_text_size">16sp</dimen>
+    <dimen name="bigger_text_size">18sp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="large_text_size">22sp</dimen>
+    <dimen name="main_page_title_size">28sp</dimen>
+
+    <!-- fixed字体大小 -->
+    <dimen name="eleven_text_size">11sp</dimen>
+    <dimen name="thirteen_size">13sp</dimen>
+</resources>

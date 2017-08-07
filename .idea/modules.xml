@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidModalDialog.iml" filepath="$PROJECT_DIR$/AndroidModalDialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modaldialog/modaldialog.iml" filepath="$PROJECT_DIR$/modaldialog/modaldialog.iml" />
+    </modules>
+  </component>
+</project>

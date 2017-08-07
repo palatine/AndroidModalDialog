@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ModalDialog</string>
+    <string name="string_yes">是</string>
+    <string name="string_no">否</string>
+    <string name="string_finish">完成</string>
+    <string name="string_delete">删除</string>
+    <string name="string_save">保存</string>
+    <string name="string_delete_ok">删除成功!</string>
+    <string name="string_delete_failed">删除失败, 请稍后重试!</string>
+    <string name="string_submit_ok">提交成功!</string>
+    <string name="string_submit_failed">提交失败, 请稍后重试!</string>
+    <string name="string_modify">修改</string>
+    <string name="string_cancel">取消</string>
+    <string name="string_ignore">忽略</string>
+    <string name="string_confirm">确定</string>
+    <string name="string_install">安装</string>
+    <string name="understood_string">朕知道了</string>
+
+</resources>
