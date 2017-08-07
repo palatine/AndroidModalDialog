@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group="com.github.palatine"
 
 android {
     compileSdkVersion 23
@@ -24,4 +26,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.github.jitpack:gradle-simple:1.0'
 }
