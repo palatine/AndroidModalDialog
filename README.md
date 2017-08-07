@@ -5,8 +5,22 @@ When AndroidModalDialog start to show, **Current UI thread will be blocked util 
 ![](https://github.com/palatine/AndroidModalDialog/blob/master/imgs/androidmodaldialog.gif)
 <br>
 # USAGE
+Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+dependencies {
+	        compile 'com.github.palatine:AndroidModalDialog:0.2'
+	}
+```
 There is a simple implementation of AndroidModalDialog called CommonSelectorDialog, you can use it directly like this:
-<br>
 ```Java
 CommonSelectorDialog dialog = new CommonSelectorDialog.Builder(this).setTitle("This is title!")
                 .setDesc("This is description!\nbalabalabalabalabalabalabalabalabalabalabalabalabalabala!")
@@ -18,6 +32,7 @@ CommonSelectorDialog dialog = new CommonSelectorDialog.Builder(this).setTitle("T
 int result = dialog.doModal();
 ```
 or you can extend BaseDialog or PopupDialog to customize your modal dialog!
+<br>
 # LICENSE
 ```
 Copyright 2017 yzh
