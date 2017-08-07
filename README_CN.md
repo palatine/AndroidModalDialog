@@ -1,11 +1,10 @@
 # AndroidModalDialog
-## [中文](https://github.com/palatine/AndroidModalDialog/blob/master/README_CN.md)
-This is an Android modal dialog, and very easy for using and extending! <br>
-When AndroidModalDialog start to show, **Current UI thread will be blocked util user calls endModal to pass their chice(However, in this situation ANR WON'T happen**)!<br>
+这是一个Android模态对话框的简单实现, 算是比较好用! <br>
+当你创建一个模态对话框并展示的时候, **当前UI线程将会阻塞直到用户做出了关闭(程序内部经过处理不会导致ANR(Application Not Responding)发生**)!<br>
 ![](https://github.com/palatine/AndroidModalDialog/blob/master/imgs/androidmodaldialog.gif)
 <br>
 # USAGE
-There is a simple implementation of AndroidModalDialog called CommonSelectorDialog, you can use it directly like this:
+你可以直接使用 CommonSelectorDialog 来创建一个通用的对话框比如:
 <br>
 ```Java
 CommonSelectorDialog dialog = new CommonSelectorDialog.Builder(this).setTitle("This is title!")
@@ -17,7 +16,7 @@ CommonSelectorDialog dialog = new CommonSelectorDialog.Builder(this).setTitle("T
                 .build();
 int result = dialog.doModal();
 ```
-or you can extend BaseDialog or PopupDialog to customize your modal dialog!
+你也可以通过继承和扩展BaseDialog, PopupDialog来定制化你需要的对话框样式和功能!
 # LICENSE
 ```
 Copyright 2017 yzh
