@@ -3,7 +3,7 @@ This is an Android modal dialog, and very easy for using and extending! <br>
 When AndroidModalDialog start to show, **UI thread will be blocked util user do the chice(However, in this situation ANR WON'T happen**)!<br>
 ![](https://github.com/palatine/AndroidModalDialog/blob/master/imgs/androidmodaldialog.gif)
 <br>
-# USEAGE
+# USAGE
 There is a simple implementation of AndroidModalDialog called CommonSelectorDialog, you can use it directly like this:
 <br>
 ```Java
