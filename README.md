@@ -18,7 +18,7 @@ int result = dialog.doModal();
 ```
 or you can extend BaseDialog or PopupDialog to customize your modal dialog!
 # LICENSE
-```Java
+```
 Copyright 2017 yzh
 
 Licensed under the Apache License, Version 2.0 (the "License");
