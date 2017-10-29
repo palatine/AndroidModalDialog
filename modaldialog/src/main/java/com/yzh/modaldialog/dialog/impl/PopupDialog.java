@@ -41,6 +41,9 @@ public class PopupDialog extends BaseDialog {
     @Override
     protected void onDialogCreate(Dialog dialog, Bundle savedInstanceState) {
         if (dialog != null) {
+            dialog.setContentView(mLayoutResId);
+            dialog.setCancelable(cancelable);
+            dialog.setCanceledOnTouchOutside(cancelOnClickOutside);
             Window window = dialog.getWindow();
             if (window != null) {
                 window.setGravity(gravity);
@@ -48,9 +51,6 @@ public class PopupDialog extends BaseDialog {
                 window.setBackgroundDrawable(new ColorDrawable(backgroundColor));
                 window.setWindowAnimations(windowAnimations);
             }
-            dialog.setContentView(mLayoutResId);
-            dialog.setCancelable(cancelable);
-            dialog.setCanceledOnTouchOutside(cancelOnClickOutside);
         }
     }
 
