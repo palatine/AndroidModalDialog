@@ -18,7 +18,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-		compile 'com.github.palatine:AndroidModalDialog:0.4.1'
+		compile 'com.github.palatine:AndroidModalDialog:0.4.2'
 	}
 ```
 There is a simple implementation of AndroidModalDialog called CommonSelectorDialog, you can use it directly like this:

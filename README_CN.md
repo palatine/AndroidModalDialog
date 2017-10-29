@@ -17,7 +17,7 @@ allprojects {
 Step 2. 添加依赖
 ```
 dependencies {
-	        compile 'com.github.palatine:AndroidModalDialog:0.4.1'
+	        compile 'com.github.palatine:AndroidModalDialog:0.4.2'
 	}
 ```
 你可以直接使用 CommonSelectorDialog 来创建一个通用的对话框比如:
