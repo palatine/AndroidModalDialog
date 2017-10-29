@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/palatine/AndroidModalDialog.svg)](https://jitpack.io/#palatine/AndroidModalDialog)
 # AndroidModalDialog
 ## [中文](https://github.com/palatine/AndroidModalDialog/blob/master/README_CN.md)
 This is an Android modal dialog, and very easy for using and extending! <br>
@@ -17,7 +18,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-	        compile 'com.github.palatine:AndroidModalDialog:0.2'
+		compile 'com.github.palatine:AndroidModalDialog:0.4.1'
 	}
 ```
 There is a simple implementation of AndroidModalDialog called CommonSelectorDialog, you can use it directly like this:
